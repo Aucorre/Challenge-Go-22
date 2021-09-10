@@ -19,7 +19,7 @@ func PrintComb2() {
 							return
 						} else {
 							z01.PrintRune(',')
-							z01.PrintRune(' ')
+							z01.PrintRune(rune(32))
 						}
 					}
 				}
