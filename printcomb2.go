@@ -14,8 +14,10 @@ func PrintComb2() {
 						z01.PrintRune(rune(k))
 						z01.PrintRune(rune(l))
 						z01.PrintRune(';')
+						return
 					} else {
 						z01.PrintRune('\n')
+						return
 					}
 				}
 			}
