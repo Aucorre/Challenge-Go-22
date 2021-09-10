@@ -13,7 +13,6 @@ func PrintComb2() {
 						z01.PrintRune(' ')
 						z01.PrintRune(rune(k))
 						z01.PrintRune(rune(l))
-						z01.PrintRune(';')
 						if i == 57 && j == 56 && k == 57 && l == 57 {
 							z01.PrintRune('\n')
 							return
